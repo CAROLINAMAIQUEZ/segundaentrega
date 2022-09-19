@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+    top: 0;
+
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+  
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: right;
+    transition: all 1.5s;
+
+}
+
+nav ul li :hover{
+    transform: scale(0.8);
+}
+
+nav ul li a{
+
+    font-family:'Segoe UI';
+    margin: 10px;
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    background-color:lightgreen;
+    border-radius: 60px;
+    text-shadow: black 6px 6px 8px;   
+
+}
+
+.galeriacontainer{ 
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap:10px;
+    justify-items: center;
+
+}
+
+.galeriacontainer{
+    background: linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(121,181,65,1) 100%);
+    margin: 5px 2px 5px 2px;
+    border-radius: 30px;  
+}
+.galeriacontainer img{
+    border-radius: 50% 20% / 10% 40%;
+    margin: 50px 50px;
+    
+}
+.galeriacontainer--img {
+    width: 350px;
+    height: 350px;
+
+  }
+
+  .galeriacontainer :hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .areasconsul{
+    font-family: sans-serif;
+    margin: 10px;
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-shadow: black 6px 6px 8px;  
+    text-align: center;
+  }
+  
+.parrafo{
+    border-style: inset;
+    font-family: "Sofia", sans-serif;
+    background-color: white;
+    font-style: oblique;
+    text-align: center;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: larger;
+    color: white;
+    border-color: bisque;
+}
+
+.if1{
+    display: flex;
+    margin: 20px 15px;
+    border-radius: 30px;
+    background-color: rgb(248, 248, 109);
+    justify-content: center;
+}
+a{
+    border-radius: 30px;
+    font-size: 70%;
+    font-family: Arial;
+    background-color: rgb(161, 158, 150);
+}
+.footer{
+    display: flex;
+    border: none;
+    font-size: 70%;
+    font-family: Arial;
+    text-shadow: black 6px 6px 8px;
+    text-align: center;
+    justify-content: center;
+}
+.colorfondo{
+    background: linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(121,181,65,1) 100%);
+    margin: 5px 2px 5px 2px;
+    border-radius: 30px;
+}
+
+.tacuara{
+ font-variant: initial;
+ font-family: 'Segoe UI';
+ background: linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(121,181,65,1) 100%);
+ margin: 5px 2px 5px 2px;
+ border-radius: 30px;
+ text-align: center;
+
+}
+.leyenda{
+    font-family: Georgia;
+    background-color: rgb(248, 248, 109);
+    border-radius: 30px;
+    text-align: center;
+    font-size:medium;
+}
+
+.espaciosdetrabajo{
+    font-family: sans-serif;
+    margin: 10px;
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    border-radius: 60px;
+    text-shadow: black 6px 6px 8px;  
+
+}
+.galeriaconsul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:10px;
+    justify-items: center;
+
+}
+
+.galeriaconsul img{
+    border: 5px solid yellowgreen;
+    border-radius: 1.5em;
+    border-top-right-radius: 5% 20%;
+}
+
+.galeriaconsul :hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.article{
+    border: none;
+    font-family: Arial;
+    text-shadow: black 6px 6px 8px;
+
+}
+
+.areas{
+    display: inline-block;
+    font-family: sans-serif;
+    margin: 10px;
+    color: black;
+    font-size: 1.4rem;
+    text-decoration: none;
+    background-color:lightgreen;
+    border-radius: 60px;
+    text-shadow: black 6px 6px 8px;  
+}
+.alert{
+    font-family: "Trirong", serif;
+    justify-content: center;
+    background-color: rgb(248, 248, 109);
+    text-align:center;
+
+}
+.pilar{
+    font-family:"Sofia", sans-serif;
+    justify-content: center;
+    background-color: rgb(248, 248, 109);
+    text-align:center;
+}
+.lainterdisciplina{
+    display:flex ;
+    background: linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(121,181,65,1) 100%);
+    margin: 5px 2px 5px 2px;
+    border-radius: 30px;
+    margin: 20px 15px;
+    border-radius: 30px;
+    justify-content:center;
+    text-align: center;
+ 
+}
+.tabla{
+    display: flex;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    background-color: rgb(248, 248, 109);
+    text-align: center;
+}
+.profesionales{
+    font-family: Verdana;
+    font-style: oblique;
+
+}
+.itemsprof{
+    text-align: center;
+    
+}
+.patiofoto{
+    border-radius: 50% 20% / 10% 40%;
+    margin:auto;
+    display:block;
+    width: 500px;
+    height: 400px;
+  
+}
+
+.patiofotocqn :hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+        
+}
+
+.novedadesdisca{
+    display:flex ;
+    background: linear-gradient(45deg, rgba(210,255,82,1) 0%, rgba(121,181,65,1) 100%);
+    margin: 5px 2px 5px 2px;
+    border-radius: 30px;
+    margin: 20px 15px;
+    border-radius: 30px;
+    justify-content:center;
+    text-align: center;
+    
+
+}
+.acordeoncondatos{
+   border-radius: 20;
+}
+@media screen and (max-width: 768px){
+    
+}
+@media screen and (max-width: 576px) {
+ 
+    header {
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+      }
+    .galeriacontainer{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    align-items: center;
+    }
+
+    .galeriaconsul{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6, 1fr);
+    }
+
+    .if1{
+    flex-direction: column;
+    align-items: center;
+
+    }
+    div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .novedadesdisca{
+        flex-direction:column;
+        align-items: center;
+    }
+}
